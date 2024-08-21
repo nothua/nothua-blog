@@ -1,1 +1,6 @@
-[{"title":"test", "blog":"blog/file1.json", "image":"images/file1.jpg", "short_description":"Short Description 123456"}]
+{
+    "title": "Hello",
+    "short_description": "Short Description",
+    "description": "Long Description",
+    "images": ["images/file1.jpg"]
+}
