@@ -1,0 +1,32 @@
+{
+  "name": "nothua-blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder",
+    "dist": "electron-builder --win"
+  },
+  "repository": "https://github.com/nothua/nothua-blog.git",
+  "author": "Hua <harutoakiyama20@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "marked": "^14.0.0"
+  },
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.nothua.blogmanager",
+    "files": [
+      "src/**/*",
+      "config.json"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
